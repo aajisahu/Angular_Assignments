@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'assignment';
+
+  ngOnInit():void{
+
+    this.title="Hello form Bridgelabz";
+
+  }
+
+
 }
